@@ -1,0 +1,91 @@
+.birds-container {
+  background-color:rgb(207, 206, 201);
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  -webkit-box-shadow: -1px 11px 21px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 11px 21px -9px rgba(0,0,0,0.75);
+  box-shadow: -1px 11px 21px -9px rgba(0,0,0,0.75);
+}
+.birds-content {
+  display: flex;
+  flex-direction: row;
+}
+.menu-item-top {
+  display: flex;
+  flex-direction: column;
+}
+.menu-item-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  align-self: baseline;
+}
+
+.birds-selector-container {
+  margin: 5px;
+  background-color: white;
+  color: black;
+  width: 15%;
+}
+.focus-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+.bird-item {
+  display: flex;
+  margin: 5px;
+  /* background-color: rgb(215, 218, 230); */
+  border-bottom: 2px solid rgb(215, 218, 230);
+  font-size: 14px;
+
+  padding: 3px;
+}
+.bird-item:hover {
+  cursor: pointer;
+  background-color: rgb(148, 151, 160);
+}
+.bird-item-focus {
+  background-color: rgb(148, 151, 160);
+    font-weight:bold;
+
+  display: flex;
+  margin: 5px;
+  font-size: 14px;
+  padding: 3px;
+  border-bottom: 2px solid rgb(215, 218, 230);
+}
+.focus-container {
+  margin: 5px;
+  background-color: white;
+  color: black;
+  width: 45%;
+}
+.add-container{
+  margin: 5px;
+  background-color: white;
+  color: black;
+}
+.title-bar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title-all-birds {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  width: 15%;
+  text-align: center;
+
+}
+
+.title-selected-birds{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  width: 45%;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.login {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(73, 211, 119, 0.3);
+    width:20vw;
+    height:20vh;
+}
+.login-button {
+    width:7vw;
+}
